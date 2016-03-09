@@ -71,20 +71,19 @@ module.exports = React.createClass({
 			showArrows: true,
 
 			defaultStyle: {
+				border: '1px solid gray',
 				padding: 10,
 				display: 'inline-flex',
 				alignItems: 'center',
 				boxSizing: 'border-box',
 				flexFlow: 'row',
-				width: 200,
-				boxShadow: '0px 0px 8px rgba(67, 65, 90, 0.42)',
-				border: '1px solid rgba(128, 128, 128, 0.37)'
+				width: 200
 			},
 
 			defaultArrowStyle: {
 				cursor: 'pointer',
 				userSelect: 'none',
-				display: 'none',
+				display: 'inline-block',
 				alignSelf: 'stretch',
 				textAlign: 'center'
 			},
@@ -114,8 +113,7 @@ module.exports = React.createClass({
 			defaultInputStyle: {
 				boxSizing: 'border-box',
 				width: '100%',
-				textAlign: 'center',
-				border: '1px solid rgba(128, 128, 128, 0.37)'
+				textAlign: 'center'
 			},
 
 			defaultSeparatorStyle: {
